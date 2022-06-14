@@ -25,3 +25,13 @@
   cursor: pointer;
   
 }
+
+#anime-pic{
+  width : 75%;
+  height: auto;
+}
+
+#gym-pic{
+  width : 75%;
+  height: auto;
+}
