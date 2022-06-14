@@ -16,7 +16,7 @@ const icons = [
 
 function Skills(){
   return (
-    <Container className="my-4">
+    <Container className="my-4" id="skills">
       <Row>
         <Col>
           <div className = "section-divider">
@@ -27,7 +27,7 @@ function Skills(){
       <Row className = "my-5">
         {icons.map(icon => (
           <Col key={icon.key}>
-            <a>{icon}</a>
+            {icon}
           </Col>
         ))}
       </Row>
