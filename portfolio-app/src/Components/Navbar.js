@@ -2,7 +2,7 @@ import { Container, Navbar, Nav } from 'react-bootstrap'
 
 function NavbarComponent(){
   return (
-    <Navbar sticky="top" bg="dark" variant="dark">
+    <Navbar className="navbar" sticky="top" bg="dark" variant="dark">
       <Container>
         <Navbar.Brand href="#home">Shun Ganas</Navbar.Brand>
         <Nav className="me-auto">
